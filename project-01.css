@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-position: top center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Start writing your code here */
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 56px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 24px;
+
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+  color: rgb(78, 78, 78);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  color: grey;
+
+}
+
+.hero-details{
+ display: inline-block; 
+ margin-right: 40px; 
+ font-family: 'Rubik', sans-serif; 
+ color: white;
+ font-weight: 300;
+ font-size: 18px;
+
+
+}
+
+.hero-container{
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1572470542241-9613cdc9c216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 180px;
+padding-bottom: 180px;
+}
+
+@media (max-width: 768px){
+.hero-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1561211974-8a2737b4dcac?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80);
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.image-1:hover{
+opacity: 0.5;
+content: "Hover";
+
+}
+
+.image-1 {
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://images.unsplash.com/photo-1572584643027-aefa4f8e8fea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1544967082-d9d25d867d66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=953&q=80');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1559762717-99c81ac85459?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+}
+
+/* Start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+flex-basis: 400px;
+flex-grow: 1;
+
+}
